@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import fetch from 'node-fetch';
-import Nav from '../components/myrealtrip/Nav'
+import Nav from '../components/myrealtrip/nav'
 import Quick from '../components/myrealtrip/Quick'
 import Cate from '../components/myrealtrip/cate'
 import Slider from '../components/myrealtrip/Slider'

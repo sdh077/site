@@ -2,7 +2,7 @@ import Head from 'next/head'
 import fetch from 'node-fetch';
 import Nav from '../components/myrealtrip/Nav'
 import Quick from '../components/myrealtrip/Quick'
-import Cate from '../components/myrealtrip/Cate'
+import Cate from '../components/myrealtrip/cate'
 import Slider from '../components/myrealtrip/Slider'
 import OfferGroup from '../components/myrealtrip/offerGroup';
 

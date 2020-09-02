@@ -14,30 +14,7 @@ const nextSlide = () =>
       setCurrentSlide(currentSlide >= TOTAL_SLIDES ? 0 : currentSlide + 1);
 const prevSlide = () => 
         setCurrentSlide(currentSlide === 0 ? TOTAL_SLIDES : currentSlide - 1);
-const SliderContainer = styled.div`
-  width: 100%;
-  height: 280px;
-  display: flex;
-`;
 
-const ButtonLeft = styled.button`
-    all: unset;
-    border-radius: 50px;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    margin-left: 10px;
-    display: none;
-`;
-const ButtonRight = styled.button`
-    all: unset;
-    border-radius: 50px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    margin-right: 10px;
-    display: none;
-`;
 return (
 <>
     <div className='slide-container'
@@ -98,3 +75,27 @@ return (
     </>
   );
 }
+const SliderContainer = styled.div`
+  width: 100%;
+  height: 280px;
+  display: flex;
+`;
+
+const ButtonLeft = styled.button`
+    all: unset;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: 10px;
+    display: none;
+`;
+const ButtonRight = styled.button`
+    all: unset;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-right: 10px;
+    display: none;
+`;
